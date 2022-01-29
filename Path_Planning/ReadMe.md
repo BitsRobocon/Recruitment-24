@@ -103,7 +103,11 @@ Create the required circuit by dragging the required components to the middle of
 
 ![start_screen](images/start.png)
 
-After inserting the Arduino board into the circuit, the option to write your code will be available. Click on the code button. From the drop-down list select “Text”.
+After inserting the Arduino board into the circuit, the option to write your code will be available. 
+
+Click on the code button.
+
+From the drop-down list select “Text”.
 
 ![](images/2.png)
 
