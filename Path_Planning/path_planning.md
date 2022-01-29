@@ -13,7 +13,7 @@ A massive earthquake has stricken Pilani at night. The town was mostly deserted,
 
 This task involves making a path planning algorithm.
 ## Getting acquainted with python
-You can start off by following the first 8 videos of this playlist: https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7
+You can start off by following videos of this playlist: https://www.youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7
 This is just an example and there’s tons of resources available online to learn Python and clarify your doubts. 
 
 Feel free to ask any doubts if you’re unable to find solutions online!
