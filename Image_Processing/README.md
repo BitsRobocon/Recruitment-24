@@ -3,14 +3,11 @@
 
 Image processing/Semantic Segmentation mainly deals with the incoming data from sensors such as camera/lidar.
 
-This usually involves processing of the data to make it suitable for us to use, for example -
-	- rescaling images
-	- correcting camera distortion
-	- turning to grayscale from better contrast
-	- compressing images for better storage
-	- blurring out selected portions to disregard errors/anomalies, etc.
+This usually involves processing of the data to make it suitable for us to use, for example rescaling images, correcting camera distortion, turning to grayscale from better contrast, compressing images for better storage, blurring out selected portions to disregard errors/anomalies, etc.
 
-Following this, we also usually have to perform semantic segmentation, wehich basically translates to make sense of the data. Examples include stuff like recognizing QR/Aruco codes, detecting of line in case of line-follower bots, charachterizing terrain as obstacles sv non-obstacles, etc.
+Following this, we also usually have to perform semantic segmentation, wehich basically translates to make sense of the data. Examples include stuff like recognizing QR/Aruco codes, detecting of line in case of line-follower bots, charachterizing terrain as obstacles vs non-obstacles, etc.
+
+Given below are the tasks as well as required resources you might require to complete the tasks as well.
 	
 ## Tasks
 
