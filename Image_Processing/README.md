@@ -32,6 +32,11 @@ In this task, we will provide a code snippet that will mimic the Lidar giving yo
 		
 Hint: You may start with a completely black image. After taking a scan at the initial location, you need to update the map based on the Lidar values that are obtained. From this updated map, you must decide which coordinate you should take the next scan at so as to minimize the total number of scans that are required to map the entire grid.
 
+The file dummylidar.py is the one you would be writing code in. It contains a contains a code snippet which gives you the Lidar Reading as taken from the worldmap.jpg from the location(pixel value) centerX,centerY. You need to understand the functioning of that code snippet, and use it to update the new image where you will forming the map. You can use the code snippet in any format (i.e. use it in any way to create a map in the most efficient way). You can add/make changes in this file. Running this file should start your algorithm and give the desired results.
+
+The file Basic_PIL_Image_Commands.py contains a few PIL commands and their function, for your reference.
+
+For this task you need to know Python and PIL library. Resources for Learning them have been added below.
 
 ## Resources
 ----- Python -----
@@ -52,4 +57,6 @@ numpy(contains installation and tutorials) - https://realpython.com/numpy-tutori
 
 PIL with numpy(last part is not necessary) -https://www.analyticsvidhya.com/blog/2021/05/image-processing-using-numpy-with-practical-implementation-and-code/ 
 
+----- PIL (for task 3) -----
 
+https://www.youtube.com/watch?v=6Qs3wObeWwc
