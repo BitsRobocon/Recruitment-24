@@ -15,7 +15,7 @@ Given below are the tasks as well as required resources you might require to com
 You have been provided with a boiler script containing a jpg image loaded with NumPy, now you have to implement three functions namely- grayscale, blur, and edge detection using only python. Read the theory behind these 3 phenomena and implement them. Hint: for edge detection search for Sobel/canny operator
 
 ### Task 2
-Given 3 images, each image has a black background and a white solid arrow on them.
+Given are 3 images, each image has a black background and a white solid arrow on them.
 Your end goal is to write a python script that takes in a given image and then returns the direction/angle in which the arrow points. Given are the steps/approaches you should follow -
 
 i) Given that the arrow points are either only up, down, left, right (as in images 1,2), write a python script to recognize which of the 4 directions it is. You are advised to try to do this by not using any other premade recognition functions of OpenCV but rather based on primary pixel value information.
