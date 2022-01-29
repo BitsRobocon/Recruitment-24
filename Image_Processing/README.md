@@ -1,4 +1,8 @@
- 3. Semantic Segmentation
+
+# Image Processing
+
+
+### Task 1
 You have been provided with a boiler script containing a jpg image loaded with NumPy, now you have to implement three functions namely- grayscale, blur, and edge detection using only python. Read the theory behind these 3 phenomena and implement them. Hint: for edge detection search for Sobel/canny operator
 
 Given 3 images, each image has a black background and a white solid arrow on them.
