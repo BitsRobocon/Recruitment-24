@@ -33,11 +33,11 @@ In this task, we will provide a code snippet that will mimic the Lidar giving yo
 Hint: You may start with a completely black image. After taking a scan at the initial location, you need to update the map based on the Lidar values that are obtained. From this updated map, you must decide which coordinate you should take the next scan at so as to minimize the total number of scans that are required to map the entire grid.
 
 
-## Resources
-Python - 
+## Resources  
+Python -   
 
-OpenCV Installation - https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/ 
-OpenCV General - https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/
-OpenCV Documentation - https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
+OpenCV Installation - https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/   
+OpenCV General - https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/   
+OpenCV Documentation - https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html   
 
 
