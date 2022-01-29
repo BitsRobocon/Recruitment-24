@@ -46,6 +46,7 @@ OpenCV Documentation - https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
 Numpy&Pil -
 
 numpy(contains installation and tutorials) - https://realpython.com/numpy-tutorial/
+
 PIL with numpy(last part is not necessary) -https://www.analyticsvidhya.com/blog/2021/05/image-processing-using-numpy-with-practical-implementation-and-code/ 
 
 
