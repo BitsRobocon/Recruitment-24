@@ -16,9 +16,8 @@ You have been provided with a boiler script containing a jpg image loaded with N
 
 ### Task 2
 Given are 3 images (in the Task_2_Arrows folder). Each image has a black background and a white solid arrow on them, which points to a certain direction.
-Your end goal is to write a python script that takes in a given image as input, and then returns the direction/angle in which the arrow points. 
-Note, the given images are given in 400x400 resoultion.
-(Note - use cv.imread() function to read/take files as input. Keep the images saved in the folder as the script.)
+Your end goal is to write a python script that takes in a given image as input, and then returns the direction/angle in which the arrow points.
+(Note - use cv.imread() function to read/take images as input. Keep the images saved in the folder as the script. The given images are given in 400x400 resoultion)
 Given belowe are the two semi-tasks/approaches of sorts given -
 
 i) Considering the case that the arrow can only point in either if the give 4 direction - up,down,left,right (as in Arrow_1.jpg, Arrow_2.jpg). Write a script that contains an algorithm, which recognizes which direction the arrow points and gives output as either "Up", "Down", "Left" or "Right". You are advised to try to do this by not using any other premade recognition functions of OpenCV but rather based on primary pixel value information.
