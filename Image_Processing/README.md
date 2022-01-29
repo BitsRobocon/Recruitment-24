@@ -2,6 +2,7 @@
 # Image Processing
 
 Image processing/Semantic Segmentation mainly deals with the incoming data from sensors such as camera/lidar. 
+
 This usually involves processing of the data to make it suitable for us to use, for example rescaling images, turning to grayscale from better contrast, maybe compressing images for better storage, or even blurring out selected portions to disregard errors/anomalies, etc.
 Following this, we also usually have to perform semantic segmentation, wehich basically translates to make sense of the data, such as recognition of certain objects (eg - recognize a QR/Aruco code, detect green colour line to follow in case of a line-follower), charachterizing terrain as obstacles or not, etc.
 
