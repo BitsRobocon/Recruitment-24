@@ -1,4 +1,4 @@
-#Path Planning + Arduino
+# Path Planning + Arduino
 
 A massive earthquake has stricken Pilani at night. The town was mostly deserted, except for a huge factory that was set up there. The entire night shift was working in the control room of the factory, which is where they are trapped now. The workers need to be rescued immediately! Even though the blueprint of the factory is available, the conventional routes might be blocked due to debris and unconventional routes might have opened up. The entire factory has been plunged into darkness and it would be difficult to navigate through the wreckage by humans (not to mention risky!). Authorities turn to the students of BITS Pilani for their assistance. The students decide to deploy a search bot (equipped with a LIDAR scanner) to navigate and find the path from the entrance to the control room. After finding the path, it will send the directions to a medical bot (it has no means of navigating or detecting anything on its own) to follow and reach the control room.     
 
