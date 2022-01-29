@@ -15,12 +15,16 @@ Given below are the tasks as well as required resources you might require to com
 You have been provided with a boiler script containing a jpg image loaded with NumPy, now you have to implement three functions namely- grayscale, blur, and edge detection using only python. Read the theory behind these 3 phenomena and implement them. Hint: for edge detection search for Sobel/canny operator
 
 ### Task 2
-Given are 3 images (in the task_2_Arrows folder), each image has a black background and a white solid arrow on them.
-Your end goal is to write a python script that takes in a given image and then returns the direction/angle in which the arrow points. Given are the steps/approaches you should follow -
+Given are 3 images (in the Task_2_Arrows folder). Each image has a black background and a white solid arrow on them, which points to a certain direction.
+Your end goal is to write a python script that takes in a given image as input, and then returns the direction/angle in which the arrow points. 
+Note, the given images are given in 400x400 resoultion.
+(Note - use cv.imread() function to read/take files as input. Keep the images saved in the folder as the script.)
+Given belowe are the two semi-tasks/approaches of sorts given -
 
-i) Given that the arrow points are either only up, down, left, right (as in images 1,2), write a python script to recognize which of the 4 directions it is. You are advised to try to do this by not using any other premade recognition functions of OpenCV but rather based on primary pixel value information.
+i) Considering the case that the arrow can only point in either if the give 4 direction - up,down,left,right (as in Arrow_1.jpg, Arrow_2.jpg). Write a script that contains an algorithm, which recognizes which direction the arrow points and gives output as either "Up", "Down", "Left" or "Right". You are advised to try to do this by not using any other premade recognition functions of OpenCV but rather based on primary pixel value information.
 
-ii) Create another OpenCV script, in which you are free to use anything, but your code should be able to determine the angle (in degrees) that the arrow is pointing. (measured from +ve X-axis as in normal maths)
+ii) Create another script, in which you are free to use anything (including premade functions from OpenCV), but your code should be able to determine the angle (in degrees) that the arrow is pointing. (measured from +ve X-axis as in normal maths 
+eg - Arrow_1.jpg -> 0, Arrow_2.jpg -> 90, Arrow_3.jpg -> 135)
 
 ### Task 3
 A LidaR (Light Detection and Ranging) is a device used to generate a map of the area surrounding it. The lidar takes scans and returns distances of obstacles at various angles in the form of a list. The generated map is dynamic in nature i.e the map is updated after each scan the lidar takes. Path planning techniques are used on the map so generated with the help of Lidar scans so that the Robot efficiently completes its goal. 
@@ -29,11 +33,12 @@ In this task, we will provide a code snippet that will mimic the Lidar giving yo
 		
 Hint: You may start with a completely black image. After taking a scan at the initial location, you need to update the map based on the Lidar values that are obtained. From this updated map, you must decide which coordinate you should take the next scan at so as to minimize the total number of scans that are required to map the entire grid.
 
-Pre-requisites:
-Logic/Algorithmic thinking
-Python
-Pillow - a python library for image manipulations
 
-After satisfying the pre-requisites, you will be able to attempt as well as complete the given task.
+## Resources
+Python - 
 
-.
+OpenCV Installation - https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/ 
+OpenCV General - https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/
+OpenCV Documentation - https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
+
+
