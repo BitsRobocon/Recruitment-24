@@ -1,7 +1,8 @@
 
 # Image Processing
 
-
+> Image processing/Semantic Segmentation mainly deals with the incoming data from sensors such as cameras/Lidars.
+> 
 ## Task 1
 You have been provided with a boiler script containing a jpg image loaded with NumPy, now you have to implement three functions namely- grayscale, blur, and edge detection using only python. Read the theory behind these 3 phenomena and implement them. Hint: for edge detection search for Sobel/canny operator
 
