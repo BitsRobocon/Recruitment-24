@@ -12,7 +12,7 @@ Given below are the tasks as well as required resources you might require to com
 ## Tasks
 
 ### Task 1
-Given 3 JPG images in a folder each - blur, grayscale, edge detection. Write 3 python programs separately to blur, convert the image to grayscale and to detect edges - blur.py,grayscale.py,edges.py. You have to load the image as a numpy aray using the PIL library, then apply the appropriate techniques in each of the three programs. You should use a nested for loop to apply these techniques and no other methods are acceptable.Then save the end array as in JPG format. You have to read the techniques involved in bluring, grayscaling and detecting edges. Hint: For edge detection search about Sobel filter. Also feel free to use the internet and explore more without indulging in plagiarism.
+Given 3 JPG images in a folder each - blur, grayscale, edge detection. Write 3 python programs separately to blur, convert the image to grayscale and to detect edges - blur.py,grayscale.py,edges.py. These python programs should be in their respective folders. You have to load the image as a numpy aray using the PIL library, then apply the appropriate techniques in each of the three programs. You should use a nested for loop to apply these techniques and no other methods are acceptable.Then save the end array as in JPG format. You have to read the techniques involved in bluring, grayscaling and detecting edges. Hint: For edge detection search about Sobel filter. Also feel free to use the internet and explore more without indulging in plagiarism.
 
 ### Task 2
 Given are 3 images (in the Task_2_Arrows folder). Each image has a black background and a white solid arrow on them, which points to a certain direction.
