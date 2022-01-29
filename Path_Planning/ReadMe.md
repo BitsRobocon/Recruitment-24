@@ -91,3 +91,34 @@ This contains the various scripts in which the ROS nodes are running.
 
 
 `Since this task requires a lot of understanding of the workings, we really recommend you contact us in case you don't understand anything. Also you are expected to attend the briefing session for this task.`
+
+
+# Arduino
+
+Go to https://www.tinkercad.com and sign up.
+
+You will be taken to your dashboard. Select “3D circuit” from the list to the left and then create a new Circuit.
+
+Create the required circuit by dragging the required components to the middle of the screen.
+
+![start_screen](images/start.png)
+
+After inserting the Arduino board into the circuit, the option to write your code will be available. Click on the code button. From the drop-down list select “Text”.
+
+![start_screen](images/2.png)
+
+Program the Arduino in accordance with the problem statement.
+
+Now you should be able to test your circuit by clicking on “Start Simulation”.
+
+## RESOURCES
+
+To learn the basics of Arduino, you can refer to this:
+https://www.youtube.com/playlist?list=PLA567CE235D39FA84
+(First  6 videos should be enough to cover the basics )  
+
+You can learn about Differential Drive Robots over here:
+https://youtu.be/aE7RQNhwnPQ 
+(Just try to apply what you learn from here to try and rotate the bot left or right, about its own center ) 
+
+Apart from this, feel free to scout the entire net for whatever resources that you may think are useful to you.
