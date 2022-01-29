@@ -34,11 +34,11 @@ Hint: You may start with a completely black image. After taking a scan at the in
 
 
 ## Resources
-Python - 
+----- Python -----
 
 General python playlist (only the first 10 videos are relevant) -  https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7
 
-OpenCV-
+----- OpenCV -----
 
 OpenCV Installation - https://www.geeksforgeeks.org/how-to-install-opencv-for-python-in-windows/ 
 
@@ -46,7 +46,7 @@ OpenCV General - https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-c
 
 OpenCV Documentation - https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
 
-Numpy&Pil -
+----- Numpy&Pil -----
 
 numpy(contains installation and tutorials) - https://realpython.com/numpy-tutorial/
 
