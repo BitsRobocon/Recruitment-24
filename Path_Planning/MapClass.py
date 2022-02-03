@@ -26,11 +26,11 @@ class Map:
                     self.add_bottom_wall((height-1, i))
 
     def check_coords(self, coords):
-        if ((coords[0] < 0) or (coords[0] >= self.width)):
+        if ((coords[0] < 0) or (coords[0] >= self.height)):
             print('Coords ' + str(coords) + ' are out of bounds')
             return False
 
-        if ((coords[1] < 0) or (coords[1] >= self.height)):
+        if ((coords[1] < 0) or (coords[1] >= self.width)):
             print('Coords ' + str(coords) + ' are out of bounds')
             return False
 
