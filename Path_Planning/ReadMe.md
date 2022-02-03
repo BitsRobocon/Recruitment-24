@@ -55,7 +55,7 @@ start_coord_x start_coord_y end_coord_x end_coord_y
 
 ### scripts
 
-This contains the various scripts in which the ROS nodes are running.
+This contains all the scripts required to complete the task.
 
  - ##### MapClass.py
 
@@ -69,20 +69,16 @@ This contains the various scripts in which the ROS nodes are running.
 
    This file provides a graphic interface using the map.
 
-   The script starts a node named map-node which has one publisher and one subscriber.
-
-   The subscriber subscribes to the /direction topic and on receiving the direction of movement, it moves the robot in that direction. Right after the movement is done, the publisher is called to inform the bot of the walls of the new cell.
-
-   The publisher publishes to the /walls topic and publishes data about the walls on the current position of the robot. This is done to emulate the real world maze, where the robot can only see the walls of the position it is on currently.
-
+   The direction_callback() function takes the direction of movement as input and moves the robot in that direction. Before making these changes, it checks whether movement in that direction is feasible.
+      
 - ##### PlannerNode.py
 
-  This file is where you'll be doing all of your work. You have been provided with template code. You need to make and implement an algorithm, which will decide the direction of movement of the robot and publish it to the /direction topic, whenever it receives information about the walls of the current cell from the /walls topic.
+  This file is where you'll be doing all of your work. You have been provided with template code. You need to make and implement an algorithm, which will decide the direction of movement of the robot.
 
   Some things to keep in mind -
 
   - It is guaranteed that the bottom direction will be the first step the robot has to take and this is already implemented in the script as an example.
-  - You cannot access the map directly. Only the data from the /walls topic is accessible to you and your algorithm needs to be based on that. You are free to store this data, if you so require (Wink)
+  - You cannot access the map directly.
   - You will be judged on efficiency of your algorithm, so make sure to think the problem through well.
 
 
