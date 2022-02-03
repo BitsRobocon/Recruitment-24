@@ -28,12 +28,8 @@ Follow this tutorial and you should be set - https://riptutorial.com/tkinter/exa
 
 ## Setup the provided package
 
-Assuming you have a terminal window running with roscore command. To do this source your ros installation and run roscore.
-
-Continue in a new terminal window with the ros installation sourced -
-
 The task is going to be performed on the path_planning package given in this repository.
-Then, run the following command to make sure everything is working fine
+Then, run the pathplannernode.py
 
 If everything has been installed properly, you'll see the following tkinter window pop up -
 
