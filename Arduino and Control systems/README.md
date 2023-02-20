@@ -54,15 +54,17 @@ The code base is as follows:
 [?] controller.m - Controller for a quadrotor.
 
 runsim.m - Test script to be called for testing.
+
 height_control.m - Simulation code that will be called by runsim.
-submit.m - A script to be called for generating the submitted files
-evaluate.p - Evaluation script to be called by submit.m
+
 fixed_set_point.m - Step response function.
+
 utils - Helper functions for quadrotor simulator
+
 ? indicates files you will need to implement
 
 You will need to first implement a PD controller for height control of the quadrotor. Then,
-tune the proportional gain (Kp) and derivative gain (Kv) in the file controller.m until the
+tune the proportional gain (Kp) ,derivative gain (Kv) and the integral gain (Ki) in the file controller.m until the
 quadrotor converges quickly and smoothly to a step response input.
 
 
