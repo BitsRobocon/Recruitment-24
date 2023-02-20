@@ -8,30 +8,17 @@ Your task will be done using the Fusion 360 software, which can be downloaded us
 - Look for the option to download fusion 360. Make sure you are downloading the education version of the application. (The link above should guide you to the education page.)
 ## Task
 
-You are required to make legs and robotic arm of a quadruped and assemble it to make a simple quadruped with legs, arms, and sensors attached to a dummy body. This task needs to be done in Fusion 360 (Solidworks STEP file is also acceptable, but better stick with Fusion 360. No other software is allowed) Dimension of the femur part of the quadruped is given (66mm). You need to decide the dimension of the other part accordingly, so they are compatible with the femur, motors should be of standard dimension. Here are some design specifications which will help as a guide to making your simple quadruped. They can be used as landmarks while completing your design.
-Legs
-Metal gear analog-servo (can be imported from the internet but horns should be modeled separately by you)
+To design a quadcopter using generative design to reduce material wastage and weight, we can follow these steps:
+-Define the requirements and constraints of the design: 
+1. The design should be compatible with the Emax R2205 2300KV motor.The design should have enough main body space to fit a 4S 10000mAh battery, flight controller, and GPS
+2. The design should be lightweight to improve flight performance and reduce material wastage.
+3. The design should be dimensionally close to any standard drone frame ( to ensure compatibility with existing parts.
 
-- The femur part of the leg (66mm) should be made using generative design
+-Create a 3D model of the quadcopter frame with the specified dimensions and constraints. The design can be created in any CAD software, such as Fusion 360 (preferably), Solidworks, Creo etc.
+-Define the material properties and desired load conditions for the generative design optimization.
+-Evaluate the generated design options and select the most suitable one based on its performance and manufacturability. The selected design should have minimal material wastage and weight, while still meeting the required performance specifications.
+-Finalize the design by adding details such as mounting holes for the motors and other components, and refine the design for ease of 3D printing.
 
-- Use tapping screws
- 	
-- Ball shaped paw(preferable but not necessary)
-### Sensors
-
- - Velodyne Lidar sensor (model - alpha prime)
- - Intel Realsense Depth Camera (model - d435i)
- 
-
-### Robotic Arm
-
-- Needed  6 DOF, with **gripper arm** mechanism.
-
-#### Note
-
-- Do not take any element from the internet **except motors**, sensors and cameras should be made by you.
-- Avoid **nested components** and the model base should be on the **x-y plane**.
-- A Dummy body can be anything as simple as a rectangular slab. But a detailed body would be appreciated.
 
 
 ### RESOURCES
@@ -60,4 +47,4 @@ https://youtu.be/hAGFkWkqocI
 
 
 
-`😃 We know that the task looks overwhelming and your compre exams are fast approaching, but try to do as much as you can, not compulasory to finish it all but try to do perfectly whichever part of quadruped you are going to complete  😃  ` 
+`😃 We know that the task looks overwhelming but try to do as much as you can, not compulasory to finish it all but try to do perfectly whichever part you are going to complete  😃  ` 

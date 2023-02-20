@@ -60,3 +60,8 @@ PIL with numpy(last part is not necessary) -https://www.analyticsvidhya.com/blog
 ----- PIL (for task 3) -----
 
 https://www.youtube.com/watch?v=6Qs3wObeWwc
+
+
+
+
+`😃 We know that the task looks overwhelming but try to do as much as you can, not compulasory to finish it all but try to do perfectly whichever part you are going to complete  😃  ` 

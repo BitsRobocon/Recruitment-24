@@ -1,4 +1,4 @@
-# Path Planning + Arduino
+# Path Planning
 
 A massive earthquake has stricken Pilani at night. The town was mostly deserted, except for a huge factory that was set up there. The entire night shift was working in the control room of the factory, which is where they are trapped now. The workers need to be rescued immediately! Even though the blueprint of the factory is available, the conventional routes might be blocked due to debris and unconventional routes might have opened up. The entire factory has been plunged into darkness and it would be difficult to navigate through the wreckage by humans (not to mention risky!). Authorities turn to the students of BITS Pilani for their assistance. The students decide to deploy a search bot (equipped with a LIDAR scanner) to navigate and find the path from the entrance to the control room. After finding the path, it will send the directions to a medical bot (it has no means of navigating or detecting anything on its own) to follow and reach the control room.     
 
@@ -6,7 +6,7 @@ A massive earthquake has stricken Pilani at night. The town was mostly deserted,
 
 1. The map is represented as a 2D list of integers. Each grid is represented by an integer which is a number from 0-15 and represents the walls adjacent to that cell in the Top-Left-Right-Bottom convention with values as 8-4-2-1. Basically, a grid with say, top and bottom walls only will have value = 8(top) + 1(bottom) = 9. This is done to emulate the real-world maze, where the robot can only see the walls of the position it is on currently. You need to make and implement an algorithm, which will decide the direction of movement of the search bot and find the required path. The bot can only move up, down, left or right. You should finally output an integer list containing the final directions that the medical bot can follow (grid by grid) to reach its goal. Represent going up,down,left and right as 0,1,2 and 3 respectively. Assume the bot straightens itself to its original orientation every time it goes one grid to the left or right.
 
-2. Design the circuit for a simple differential wheeled robot on tinkerCAD ( just use an Arduino, 2 DC motors, and a battery pack ). Also, complete the boiler script to program the motors such that it follows the integer array of directions from the previous sub-part (The array of directions will be hard-coded in the Arduino script by you). Consider ideal conditions (both the motors are exactly the same, no slipping of wheels, etc.), and the distance between the centers of two grids is 1 meter. Use only digital HIGH/LOW on the motors which will cause the robot to move at the speed of 1 m/s. The distance between the two wheels is also 1 meter.  
+ 
 
 
 # Building a Maze solving system.
@@ -82,39 +82,12 @@ This contains all the scripts required to complete the task.
   - You will be judged on efficiency of your algorithm, so make sure to think the problem through well.
 
 
-`Since this task requires a lot of understanding of the workings, we really recommend you contact us in case you don't understand anything. Also you are expected to attend the briefing session for this task.`
+`Since this task requires a lot of understanding of the workings, we really recommend you contact us in case you don't understand anything.`
 
 
-# Arduino
 
-Go to https://www.tinkercad.com and sign up.
-
-You will be taken to your dashboard. Select “3D circuit” from the list to the left and then create a new Circuit.
-
-Create the required circuit by dragging the required components to the middle of the screen.
-
-![start_screen](images/start.png)
-
-After inserting the Arduino board into the circuit, the option to write your code will be available. 
-
-Click on the code button.
-
-From the drop-down list select “Text”.
-
-![](images/2.png)
-
-Program the Arduino in accordance with the problem statement.
-
-Now you should be able to test your circuit by clicking on “Start Simulation”.
-
-## RESOURCES
-
-To learn the basics of Arduino, you can refer to this:
-https://www.youtube.com/playlist?list=PLA567CE235D39FA84
-(First  6 videos should be enough to cover the basics )  
-
-You can learn about Differential Drive Robots over here:
-https://youtu.be/aE7RQNhwnPQ 
-(Just try to apply what you learn from here to try and rotate the bot left or right, about its own center ) 
 
 Apart from this, feel free to scout the entire net for whatever resources that you may think are useful to you.
+
+
+`😃 We know that the task looks overwhelming but try to do as much as you can, not compulasory to finish it all but try to do perfectly whichever part you are going to complete  😃  ` 
